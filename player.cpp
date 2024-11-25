@@ -17,7 +17,7 @@ Player::Player(QGraphicsItem *parent):
     gravity_timer(new QTimer(this)),
     vertical_velocity(0)
 {
-    setPixmap(QPixmap(":/imgs/player.png"));
+    setPixmap(QPixmap(":/attachments (1)/player.png"));
     connect(gravity_timer, &QTimer::timeout, this, &Player::apply_gravity);
     gravity_timer->start(30);
 }
@@ -104,7 +104,7 @@ void Player::keyPressEvent(QKeyEvent *event){
         if(x() <= 0)
             return;
         if(!is_reversed){
-            setPixmap(QPixmap(":/imgs/reversed-player.png"));
+            setPixmap(QPixmap(":/attachments (1)/reversed-player.png"));
             is_reversed = true;
         }
         if(x() + boundingRect().width() < scene()->width() / 2 || lvl->ground->x() == 0)
@@ -119,7 +119,7 @@ void Player::keyPressEvent(QKeyEvent *event){
         if(x() + boundingRect().width() >= scene()->width())
             return;
         if(is_reversed){
-            setPixmap(QPixmap(":/imgs/player.png"));
+            setPixmap(QPixmap(":/attachments (1)/player.png"));
             is_reversed = false;
         }
         if(x() + boundingRect().width() < scene()->width() / 2)

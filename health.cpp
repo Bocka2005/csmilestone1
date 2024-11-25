@@ -5,7 +5,7 @@
 Health::Health(QGraphicsItem* parent)
     : QGraphicsItemGroup(parent), current_health(3) {
     for (int i = 0; i < 3; ++i) {
-        QGraphicsPixmapItem* heart = new QGraphicsPixmapItem(QPixmap(":/imgs/heart.png"));
+        QGraphicsPixmapItem* heart = new QGraphicsPixmapItem(QPixmap(":/attachments (1)/heart.png"));
         heart->setPos(i * 40, 0);
         addToGroup(heart);
         hearts.append(heart);

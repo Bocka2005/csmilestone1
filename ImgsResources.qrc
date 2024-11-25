@@ -1,18 +1,18 @@
 <RCC>
     <qresource prefix="/">
-        <file>imgs/heart.png</file>
-        <file>imgs/player.png</file>
-        <file>imgs/spikes.png</file>
-        <file>imgs/reversed-player.png</file>
-        <file>imgs/sky.jpg</file>
-        <file>imgs/ground.png</file>
-        <file>imgs/coin.png</file>
-        <file>imgs/full-ground.png</file>
-        <file>imgs/long-platform.png</file>
-        <file>imgs/checkpoint.png</file>
-        <file>imgs/clouds.png</file>
-        <file>imgs/clouds2.png</file>
-        <file>imgs/clouds3.png</file>
-        <file>imgs/short-platform.png</file>
+        <file>attachments (1)/checkpoint.png</file>
+        <file>attachments (1)/clouds.png</file>
+        <file>attachments (1)/clouds2.png</file>
+        <file>attachments (1)/clouds3.png</file>
+        <file>attachments (1)/coin.png</file>
+        <file>attachments (1)/full-ground.png</file>
+        <file>attachments (1)/ground.png</file>
+        <file>attachments (1)/heart.png</file>
+        <file>attachments (1)/long-platform.png</file>
+        <file>attachments (1)/player.png</file>
+        <file>attachments (1)/reversed-player.png</file>
+        <file>attachments (1)/short-platform.png</file>
+        <file>attachments (1)/sky.jpg</file>
+        <file>attachments (1)/spikes.png</file>
     </qresource>
 </RCC>

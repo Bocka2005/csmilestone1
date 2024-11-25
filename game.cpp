@@ -14,26 +14,26 @@ Game::Game(QWidget *parent):
     const int HEIGHT =  650;
     scene = new QGraphicsScene();
     scene->setSceneRect(0, 0, WIDTH, HEIGHT);
-    setBackgroundBrush(QBrush(QImage(":/imgs/sky.jpg")));
+    setBackgroundBrush(QBrush(QImage(":/attachments (1)/sky.jpg")));
 
     setScene(scene);
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setFixedSize(WIDTH, HEIGHT);
 
-    ground = new QGraphicsPixmapItem(QPixmap(":/imgs/full-ground.png"));
+    ground = new QGraphicsPixmapItem(QPixmap(":/attachments (1)/full-ground.png"));
     ground->setPos(0, HEIGHT - 60);
     scene->addItem(ground);
 
-    clouds = new QGraphicsPixmapItem(QPixmap(":/imgs/clouds.png"));
+    clouds = new QGraphicsPixmapItem(QPixmap(":/attachments (1)/clouds.png"));
     clouds->setPos(130, 50);
     scene->addItem(clouds);
 
-    clouds2 = new QGraphicsPixmapItem(QPixmap(":/imgs/clouds2.png"));
+    clouds2 = new QGraphicsPixmapItem(QPixmap(":/attachments (1)/clouds2.png"));
     clouds2->setPos(200, 0);
     scene->addItem(clouds2);
 
-    clouds3 = new QGraphicsPixmapItem(QPixmap(":/imgs/clouds3.png"));
+    clouds3 = new QGraphicsPixmapItem(QPixmap(":/attachments (1)/clouds3.png"));
     clouds3->setPos(600, 150);
     scene->addItem(clouds3);
 

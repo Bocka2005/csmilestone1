@@ -3,5 +3,5 @@
 Coin::Coin(QGraphicsItem *parent):
     QGraphicsPixmapItem(parent)
 {
-    setPixmap(QPixmap(":/imgs/coin.png"));
+    setPixmap(QPixmap(":/attachments (1)/coin.png"));
 }

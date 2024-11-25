@@ -5,5 +5,5 @@ const QString Platform::SHORT = "short";
 Platform::Platform(const QString &platform_type, QGraphicsItem *parent):
     QGraphicsPixmapItem(parent)
 {
-    setPixmap(QPixmap(":/imgs/" + platform_type + "-platform.png"));
+    setPixmap(QPixmap(":/attachments (1)/" + platform_type + "-platform.png"));
 }

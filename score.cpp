@@ -4,7 +4,7 @@
 Score::Score(QGraphicsItem *parent)
     : QGraphicsItemGroup(parent), current_score(0)
 {
-    coin_icon = new QGraphicsPixmapItem(QPixmap(":/imgs/coin.png"));
+    coin_icon = new QGraphicsPixmapItem(QPixmap(":/attachments (1)/coin.png"));
     coin_icon->setPos(0, 2);
     addToGroup(coin_icon);
     score_text = new QGraphicsTextItem("×0");

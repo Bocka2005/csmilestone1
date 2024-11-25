@@ -3,5 +3,5 @@
 Spikes::Spikes(QGraphicsItem *parent):
     QGraphicsPixmapItem(parent)
 {
-    setPixmap(QPixmap(":/imgs/spikes.png"));
+    setPixmap(QPixmap(":/attachments (1)/spikes.png"));
 }
